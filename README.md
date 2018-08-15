@@ -225,20 +225,6 @@ Alternatively, your submission could consist of the GitHub link to your reposito
 | Question 2         		| The submission includes a detailed description of how the final model architecture was designed.   	|
 
 
-## Suggestions to Make your Project Stand Out!
-
-#### (1) Add a Language Model to the Decoder
-
-The performance of the decoding step can be greatly enhanced by incorporating a language model.  Build your own language model from scratch, or leverage a repository or toolkit that you find online to improve your predictions.
-
-#### (2) Train on Bigger Data
-
-In the project, you used some of the smaller downloads from the LibriSpeech corpus.  Try training your model on some larger datasets - instead of using `dev-clean.tar.gz`, download one of the larger training sets on the [website](http://www.openslr.org/12/).
-
-#### (3) Try out Different Audio Features
-
-In this project, you had the choice to use _either_ spectrogram or MFCC features.  Take the time to test the performance of _both_ of these features.  For a special challenge, train a network that uses raw audio waveforms!
-
 ## Special Thanks
 
 We have borrowed the `create_desc_json.py` and `flac_to_wav.sh` files from the [ba-dls-deepspeech](https://github.com/baidu-research/ba-dls-deepspeech) repository, along with some functions used to generate spectrograms.
